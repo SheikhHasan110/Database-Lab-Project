@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 import mysql.connector
 from werkzeug.security import generate_password_hash, check_password_hash
+from urllib.parse import quote as url_quote, unquote as url_unquote
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
