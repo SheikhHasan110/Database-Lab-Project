@@ -1,6 +1,3 @@
 Flask==2.0.1
 Gunicorn==20.1.0
-<<<<<<< HEAD
 mysql-connector-python
-=======
->>>>>>> 121d7bbcfa8006f8c7a2746b1d56e784c047d5e8
